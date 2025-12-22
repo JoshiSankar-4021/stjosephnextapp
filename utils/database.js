@@ -7,3 +7,4 @@ export const pool = new Pool({
   password: process.env.PGPASSWORD || "1234",
   database: process.env.PGDATABASE || "joseph",
 });
+
